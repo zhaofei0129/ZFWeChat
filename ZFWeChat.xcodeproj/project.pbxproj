@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F9B4D31C9715D00002C001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9B4D21C9715D00002C001 /* AppDelegate.swift */; };
+		A4F9B4D51C9715D00002C001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9B4D41C9715D00002C001 /* ViewController.swift */; };
+		A4F9B4D81C9715D00002C001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F9B4D61C9715D00002C001 /* Main.storyboard */; };
+		A4F9B4DA1C9715D00002C001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F9B4D91C9715D00002C001 /* Assets.xcassets */; };
+		A4F9B4DD1C9715D00002C001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F9B4DB1C9715D00002C001 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4F9B4CF1C9715D00002C001 /* ZFWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F9B4D21C9715D00002C001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4F9B4D41C9715D00002C001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4F9B4D71C9715D00002C001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F9B4D91C9715D00002C001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F9B4DC1C9715D00002C001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4F9B4DE1C9715D10002C001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F9B4CC1C9715D00002C001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F9B4C61C9715D00002C001 = {
+			isa = PBXGroup;
+			children = (
+				A4F9B4D11C9715D00002C001 /* ZFWeChat */,
+				A4F9B4D01C9715D00002C001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F9B4D01C9715D00002C001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9B4CF1C9715D00002C001 /* ZFWeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F9B4D11C9715D00002C001 /* ZFWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9B4D21C9715D00002C001 /* AppDelegate.swift */,
+				A4F9B4D41C9715D00002C001 /* ViewController.swift */,
+				A4F9B4D61C9715D00002C001 /* Main.storyboard */,
+				A4F9B4D91C9715D00002C001 /* Assets.xcassets */,
+				A4F9B4DB1C9715D00002C001 /* LaunchScreen.storyboard */,
+				A4F9B4DE1C9715D10002C001 /* Info.plist */,
+			);
+			path = ZFWeChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F9B4CE1C9715D00002C001 /* ZFWeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F9B4E11C9715D10002C001 /* Build configuration list for PBXNativeTarget "ZFWeChat" */;
+			buildPhases = (
+				A4F9B4CB1C9715D00002C001 /* Sources */,
+				A4F9B4CC1C9715D00002C001 /* Frameworks */,
+				A4F9B4CD1C9715D00002C001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFWeChat;
+			productName = ZFWeChat;
+			productReference = A4F9B4CF1C9715D00002C001 /* ZFWeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F9B4C71C9715D00002C001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "赵飞";
+				TargetAttributes = {
+					A4F9B4CE1C9715D00002C001 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y2234CY3YA;
+					};
+				};
+			};
+			buildConfigurationList = A4F9B4CA1C9715D00002C001 /* Build configuration list for PBXProject "ZFWeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F9B4C61C9715D00002C001;
+			productRefGroup = A4F9B4D01C9715D00002C001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F9B4CE1C9715D00002C001 /* ZFWeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F9B4CD1C9715D00002C001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9B4DD1C9715D00002C001 /* LaunchScreen.storyboard in Resources */,
+				A4F9B4DA1C9715D00002C001 /* Assets.xcassets in Resources */,
+				A4F9B4D81C9715D00002C001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F9B4CB1C9715D00002C001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9B4D51C9715D00002C001 /* ViewController.swift in Sources */,
+				A4F9B4D31C9715D00002C001 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4F9B4D61C9715D00002C001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F9B4D71C9715D00002C001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F9B4DB1C9715D00002C001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F9B4DC1C9715D00002C001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F9B4DF1C9715D10002C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4F9B4E01C9715D10002C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F9B4E21C9715D10002C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFWeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaofei.ZFWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4F9B4E31C9715D10002C001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFWeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaofei.ZFWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F9B4CA1C9715D00002C001 /* Build configuration list for PBXProject "ZFWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F9B4DF1C9715D10002C001 /* Debug */,
+				A4F9B4E01C9715D10002C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F9B4E11C9715D10002C001 /* Build configuration list for PBXNativeTarget "ZFWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F9B4E21C9715D10002C001 /* Debug */,
+				A4F9B4E31C9715D10002C001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F9B4C71C9715D00002C001 /* Project object */;
+}
